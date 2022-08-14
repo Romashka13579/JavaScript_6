@@ -17,20 +17,22 @@ body{
     align-items: center;
     justify-content: space-around;
 }
-.icon{
+#icon{
     width: 50px;
     height: 50px;
+    background: url(../img/red.svg);
 }
 #rangeinput{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    width: 300px;
+    width: 320px;
     height: 20px;
     -webkit-appearance: none;
     margin: 10px 0;
     border-radius: 10px;
     padding: 0px 5px;
+    background: red;
 }
 #rangeinput:focus,
 #rangeinput:hover{
