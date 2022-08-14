@@ -25,7 +25,7 @@ function Value(val){
     else if (val >= 122.4 && val < 163.2){
         icon.style.background = "url(img/light_blue.svg)"
     }
-    else if (val >= 163.2 && val < 204){
+    else if (val >= 163.2 && val <= 204){
         icon.style.background = "url(img/blue.svg)"
     }
 }
