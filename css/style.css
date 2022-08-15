@@ -58,27 +58,6 @@ body{
     -webkit-appearance: none;
     margin-top: 0px;
 }
-@keyframes anim_icon {
-    0%{
-        transform:matrix(1.00,0.00,0.00,1.00,0,0);
-        -ms-transform:matrix(1.00,0.00,0.00,1.00,0,0);
-        -webkit-transform:matrix(1.00,0.00,0.00,1.00,0,0);
-    }
-    50%{
-        transform:matrix(-1.00,0.00,-0.00,-1.00,0,0);
-        -ms-transform:matrix(-1.00,0.00,-0.00,-1.00,0,0);
-        -webkit-transform:matrix(-1.00,0.00,-0.00,-1.00,0,0);
-    }
-    100%{
-        transform:matrix(1.00,-0.001,0.001,1.00,0,0);
-        -ms-transform:matrix(1.00,-0.001,0.001,1.00,0,0);
-        -webkit-transform:matrix(1.00,-0.001,0.001,1.00,0,0);
-    }
-}
-.dashes{
-    width: 132px;
-    height: 20px;
-}
 #rangeoutput{
     margin-right: auto;
     width: 40px;
@@ -89,19 +68,14 @@ body{
     color: white;
     font-family: cursive;
 }
-.dash_1,
-.dash_2{
-    float: left;
-    box-shadow: 1px 4px 10px #aa9900;
-    border: 2px solid #e5de83;
-    height: 20px;
-    width: 6px;
-    background: #939643;
-    cursor: pointer;
-    -webkit-appearance: none;
-    margin-top: 0px;
-    box-sizing: border-box;
-}
-.dash_2{
-    right: 0px;
+#triangle{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 25px;
+    width: 5px;
+    height: 5px;
+    background: red;
+    transform:matrix(0.71,0.71,-0.71,0.71,0,0);
+    -ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);
+    -webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);
 }
