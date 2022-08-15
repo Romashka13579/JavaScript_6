@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,21 @@
     <link rel="stylesheet" href="css/style.css">
     <title>JavaScript_6</title>
 </head>
+
 <body>
     <div class="main">
         <div class="blcok">
             <div id="icon"></div>
-            <input id="rangeinput" type="range" min="0" max="204" step="1" value="0" onmousemove="Value(rangeinput.value)">
-            <!-- <div class="dashes">
-                <div class="dash_1"></div>
-                <div class="dash_2"></div>
-            </div> -->
+            <form class="blocks" oninput="rangeoutput.value=parseInt(rangeinput.value)">
+                <input id="rangeinput" type="range" min="0" max="204" step="1" value="0" onmousemove="Value(rangeinput.value)">
+                <output id="rangeoutput" for="rangeinput">0
+                    <div class="triangle"></div>
+                </output>
+            </form>
         </div>
     </div>
 
     <script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>

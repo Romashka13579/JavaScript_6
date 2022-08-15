@@ -22,6 +22,10 @@ body{
     height: 50px;
     background: url(../img/red.svg);
 }
+.blocks{
+    display: flex;
+    flex-direction: column;
+}
 #rangeinput{
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -72,15 +76,21 @@ body{
     }
 }
 .dashes{
-    position: absolute;
     width: 132px;
     height: 20px;
-    margin-left: -78px;
-    margin-top: 70px;
+    margin-left: ;
+}
+#rangeoutput{
+    margin-right: auto;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background: red;
+    color: white;
+    font-family: cursive;
 }
 .dash_1,
 .dash_2{
-    position: absolute;
+    float: left;
     box-shadow: 1px 4px 10px #aa9900;
     border: 2px solid #e5de83;
     height: 20px;
