@@ -33,7 +33,7 @@ body{
     width: 320px;
     height: 20px;
     -webkit-appearance: none;
-    margin: 10px 0;
+    margin: 10px 20px;
     border-radius: 10px;
     padding: 0px 5px;
     background: red;
@@ -45,7 +45,7 @@ body{
     appearance: none;
     height: 20px;
     -webkit-appearance: none;
-    margin: 10px 0;
+    margin: 10px 20px;
     outline: none;
 }
 #rangeinput::-webkit-slider-thumb {
@@ -78,12 +78,13 @@ body{
 .dashes{
     width: 132px;
     height: 20px;
-    margin-left: ;
 }
 #rangeoutput{
     margin-right: auto;
-    padding: 3px 10px;
+    width: 40px;
+    text-align: center;
     border-radius: 10px;
+    margin-left: 8px;
     background: red;
     color: white;
     font-family: cursive;

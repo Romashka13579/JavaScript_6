@@ -1,6 +1,9 @@
 var range_input = document.getElementById("rangeinput")
 var icon = document.getElementById("icon")
+var rangeoutput_value = parseInt(range_input.value)
+var range_output = document.getElementById("rangeoutput")
 function Value(val){
+    range_output.style.marginLeft = ""+((val*315/204)+8)+"px"
     if (val >= 0 && val <= 51){
         range_input.style.background = "rgb(255, "+(val*5)+", 0)"
     }
